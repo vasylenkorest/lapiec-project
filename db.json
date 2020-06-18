@@ -1,0 +1,230 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "discounts": [
+    {
+      "id": 1,
+      "title": "Приведи друга",
+      "text": "Blablalba"
+    },
+    {
+      "id": 2,
+      "title": "sdad",
+      "text": "dsadsa"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "nameUA": "піца",
+      "nameEN": "pizza"
+    },
+    {
+      "id": 2,
+      "nameUA": "салат",
+      "nameEN": "salad"
+    },
+    {
+      "id": 3,
+      "nameUA": "напої",
+      "nameEN": "drinks"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Піца La П’єц",
+      "nameEN": "lapiec",
+      "description": "соус томатний, шинка, баварські ковбаски, сир моцарела, ковбаса салямі, прошуто.",
+      "weight": "460 гр",
+      "price": 157,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2F1121297c-5a1c-4a7a-b2ef-9d7c6f9e311d.jpeg?alt=media&token=928ceb1d-1583-4ae4-9e30-452033536127",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Капрічоза",
+      "nameEN": "kaprichoza",
+      "description": "соус томатний, сир моцарела, шинка, свіжі гриби.",
+      "weight": "450 гр",
+      "price": 141,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2F1db64909-bfcd-4eac-ad04-b1a81e68b72f.jpeg?alt=media&token=7cfb494f-2a29-4a58-9dfe-6298a0c45703",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Цезаріо",
+      "nameEN": "cesario",
+      "description": "соус вершковий, помідори, хрусткий салат, пармезан, куряче м'ясо, сир моцарела, перепелині яйця.",
+      "weight": "580 гр",
+      "price": 182,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2Fa90efc89-3f2c-49d1-ba3f-543227499c72.jpeg?alt=media&token=aa78c23a-86ed-41fd-a3b4-3f90d99e0630",
+      "count": 1
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Кватро формаджі",
+      "nameEN": "kvatro-formadzhi",
+      "description": "соус вершковий, пармезан, сир моцарела, сир рікотта, сир дор блю,  волоський горіх, груша.",
+      "weight": "390 гр",
+      "price": 172,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2F02325bca-4b5e-48b5-8601-0a00fa4c786f.jpeg?alt=media&token=66f95f05-6ca0-4a91-86b8-b944d76d58d2",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Салямі",
+      "nameEN": "salyami",
+      "description": "соус томатний, сир моцарела, ковбаса салямі.",
+      "weight": "390 гр",
+      "price": 131,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2F8910df59-494d-4630-88e5-0b3baa4d37c5.jpeg?alt=media&token=7e190609-fa27-420f-99ad-c566254ae0ea",
+      "count": 1
+    },
+    {
+      "id": 6,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Маргарита",
+      "nameEN": "margaryta",
+      "description": "соус томатний, сир моцарела, помідори.",
+      "weight": "400 гр",
+      "price": 99,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2F7e0edb67-e845-46d4-8526-66bbe3a850c0.jpeg?alt=media&token=9eb6a3c9-e4cb-4cd3-90b3-a0aba63567f9",
+      "count": 1
+    },
+    {
+      "id": 7,
+      "category": {
+        "id": 2,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Салат Цезар зі смаженим курячим філе",
+      "nameEN": "cezzar",
+      "description": "Салат айсберг, помідори, куряче м`ясо, сир пармезан, перепелині яйця, духмяні сухарики та фірмова заправка. 250 г",
+      "weight": "250 гр",
+      "price": 125,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2F7ac2bffe-eec4-435f-9ae7-d7de55c42372.jpeg?alt=media&token=b898acf3-03ea-438c-ae7c-768944abad61",
+      "count": 1
+    },
+    {
+      "id": 8,
+      "category": {
+        "id": 2,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Інсалата ді Сальмоне",
+      "nameEN": "insalata-di-salmone",
+      "description": "рукола, помідор чері, огірок, салат айсберг, соус айолі, пармезан, лосось, перепелине яйце, кунжут. 285 г",
+      "weight": "285 гр",
+      "price": 134,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2Fe5e455fa-206d-4c8c-9fe7-894c500d8799.jpeg?alt=media&token=09ad74c5-dfdc-4f39-8538-fb231b443e70",
+      "count": 1
+    },
+    {
+      "id": 9,
+      "category": {
+        "id": 2,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Прімавера",
+      "nameEN": "primavera",
+      "description": "сир моцарела, салат айсберг, помідор чері, огірок, болгарський перець, оливкова олія, фреш лимонний, орегано. 255 г",
+      "weight": "255 гр",
+      "price": 99,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2F964c62a6-6c0e-47db-8d6b-3f7339d246a0.jpeg?alt=media&token=ecad1059-9044-4360-9b6e-cc5d8ee01623",
+      "count": 1
+    },
+    {
+      "id": 10,
+      "category": {
+        "id": 3,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Томатний сік",
+      "nameEN": "rich-tomato",
+      "description": "Томатний сік, 1 л, ТМ “RICH”",
+      "weight": "1 л",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2F65befb8b-f6c5-4ee3-929a-1d8f34677593.jpeg?alt=media&token=f7d966e4-e9e5-4972-9b15-e5e274409277",
+      "count": 1
+    },
+    {
+      "id": 11,
+      "category": {
+        "id": 3,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Яблучний сік",
+      "nameEN": "rich-apple",
+      "description": "Яблучний сік освітлений, 1 л, ТМ “RICH”",
+      "weight": "1 л",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2Fbacd9152-0fea-4ff1-9f9d-85f4d30298d6.jpeg?alt=media&token=7350736f-4822-4926-88aa-335660ff46c5",
+      "count": 1
+    },
+    {
+      "id": 12,
+      "category": {
+        "id": 3,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Апельсиновий нектар з м'якоттю",
+      "nameEN": "rich-orange",
+      "description": "Апельсиновий нектар з м'якоттю, 1 л, ТМ “RICH”",
+      "weight": "1 л",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/angularlapiectest.appspot.com/o/images%2Fa39bd6d8-8a8e-4549-a12a-d0b041399606.jpeg?alt=media&token=4384ae8a-cda8-456c-a6b6-a08932f69559",
+      "count": 1
+    }
+  ]
+}

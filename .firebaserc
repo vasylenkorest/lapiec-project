@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angularlapiectest": {
+      "hosting": {
+        "la-piec": [
+          "angularlapiectest"
+        ]
+      }
+    }
+  }
+}
